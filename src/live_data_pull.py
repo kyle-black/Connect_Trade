@@ -13,7 +13,7 @@ execution_counter = Value('i', 0)
 
 
 
-#url ="https://financialmodelingprep.com/api/v3/historical-chart/1min/ALIUSD?from={start_date.strftime('%Y-%m-%d')}&to={end_date.strftime('%Y-%m-%d')}&apikey=3e17d2b777a13feee4c1243985cdc7c4"
+#url ="https://financialmodelingprep.com/api/v3/historical-chart/1min/ALIUSD?from={start_date.strftime('%Y-%m-%d')}&to={end_date.strftime('%Y-%m-%d')}&apikey="
 #resp = requests.get(url)
 #print(resp.json())
 
