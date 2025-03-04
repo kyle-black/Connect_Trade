@@ -14,10 +14,10 @@ from oandapyV20.endpoints.accounts import AccountDetails
 import os
 # OANDA API credentials
 
-api_key = os.getenv('API_KEY')
-account_id = os.getenv('ACCOUNT_ID')
-API_KEY = api_key
-ACCOUNT_ID = account_id
+#api_key = os.getenv('API_KEY')
+#account_id = os.getenv('ACCOUNT_ID')
+API_KEY = "3df8397abba59435b8b6bec4538adef2-040ad5739c7def04ac2df4ae686649e9"
+ACCOUNT_ID = "001-001-10546978-001"
 BASE_URL = "https://api-fxtrade.oanda.com"
 
 # Initialize OANDA API client

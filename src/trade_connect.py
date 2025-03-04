@@ -16,8 +16,8 @@ BASE_URL = "https://api-fxtrade.oanda.com"
 client = API(access_token=API_KEY, environment="live")
 
 # Trading parameters
-SL_PIPS = 5.0
-TP_PIPS = 25.0
+SL_PIPS = 10.0
+TP_PIPS = 30.0
 PIP_VALUE = 0.0001  # For EUR/USD
 SYMBOL = "EUR_USD"
 RISK_PERCENT = 1.0  # Risk 1% of account balance per trade
